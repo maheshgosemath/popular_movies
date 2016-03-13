@@ -1,0 +1,20 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="movie_detail_text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ba000000</item>
+    </style>
+    <style name="movie_detail_text_sup" parent="movie_detail_text">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="movie_detail_text_overview" parent="movie_detail_text">
+        <item name="android:lineSpacingExtra">12dp</item>
+    </style>
+</resources>
